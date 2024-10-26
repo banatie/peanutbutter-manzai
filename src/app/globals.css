@@ -1,4 +1,14 @@
 :root {
+  --max-width-desktop: 1280px;
+  --max-width-mobile: 575px;
+}
+
+:root {
+  --margin-left-right-desktop: 32px;
+  --margin-left-right-mobile: 16px;
+}
+
+:root {
   --background: #f6140c;
   --foreground: #ffffff;
 }
@@ -15,6 +25,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: var(--max-width-mobile);
+  /* margin: 0 var(--margin-left-right-mobile); */
 }
 
 * {
